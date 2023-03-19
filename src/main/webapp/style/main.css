@@ -1,3 +1,7 @@
+.main {
+    background: linear-gradient(#87b479, #8bc7b5);
+}
+
 td, th {
     font-size: large;
     border: solid;
