@@ -8,7 +8,8 @@
     <script src="script/my.js"></script>
 </head>
 <body>
-    <main class="main">
+<main class="main">
+    <div class="section">
         <table>
             <thead>
             <tr>
@@ -51,11 +52,11 @@
                 </td>
             </tr>
             </tbody>
-
         </table>
         <button th:each="pageNumber : ${page_numbers}" class="button_page">
             <a th:href="@{/(page=${pageNumber}, limit=10)}" th:text="${pageNumber}" th:classappend="${pageNumber == current_page? 'active_page' : ''}"></a>
         </button>
-    </main>
+    </div>
+</main>
 </body>
 </html>

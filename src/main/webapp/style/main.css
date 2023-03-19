@@ -1,11 +1,25 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 .main {
     background: linear-gradient(#87b479, #8bc7b5);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.section {
+    margin-top: 50px;
 }
 
 td, th {
+    background-color: lightyellow;
     font-size: large;
     border: solid;
     color: darkblue;
+    padding: 10px;
 }
 .active_page {
     color: red;
